@@ -8,3 +8,8 @@ variable "username" {
   default = "tf-cloud-snowflake"
 }
 
+variable "region" {
+  type    = string
+  default = "eu-west-1"
+}
+
