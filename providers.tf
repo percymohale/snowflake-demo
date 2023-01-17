@@ -17,8 +17,8 @@ terraform {
 
 provider "snowflake" {
   #role        = "SYSADMIN"
-  username    = var.username
-  account     = var.account
+  # username    = var.username
+  # account     = var.account
   private_key_path = "./snowflake_tf_snow_key.p8"
 }
 
